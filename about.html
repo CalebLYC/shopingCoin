@@ -6,12 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-    <title>Site e-shop acceuil</title>
+    <title>Site e-shop à propos de nous</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbar-static/">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link href="./assets/vendor/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about.css">
   </head>
   <body> 
     <nav class="navbar navbar-expand-md">
@@ -23,16 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#products">Produits</a>
+              <a class="nav-link" href="index.html#products">Produits</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contacts">Contacts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">A propos</a>
+              <a class="nav-link" href="#">A propos</a>
             </li>
           </ul>
         </div>
@@ -46,7 +47,7 @@
       </div>
 
       <div class="homeButton">
-        <a class="btn btn-lg btn-primary" href="#products" role="button">Voir les produits</a>
+        <a class="btn btn-lg btn-primary" href="index.html#products" role="button">Voir les produits</a>
         <div class="homeButtonContent">
           <div class="homeButtonCard homeButtonCard1">
             <h4 class="homeButtonCardTitle">Sacs</h4>
@@ -70,12 +71,17 @@
         </div>
       </div>
 
-      <h2>Nos produits</h2>
-      <div class="products" id="products">
+      <div class="aboutUs">
+        <h2>Qui sommes-nous?</h2>
+        <p>Nous sommes une société spécialisée dans la vente des habits, sacs, accessoires,...</p>
+        <p>Ce site a été développé par <a href="https://caleblyc.github.io/mon-app" target="_blank">Caleb LYC</a>. Voir son <a href="" target="_blank">portfolio</a></p>
       </div>
 
-      <div class="newsletter">
-        
+      <div class="avis">
+        <h3>Avis de nos client</h3>
+        <div class="avisContainer">
+            
+        </div>
       </div>
     </main>
 
@@ -116,6 +122,5 @@
     </footer>
 
     <script src="./assets/vendor/js/bootstrap.bundle.min.js" defer></script>
-    <script src="./assets/js/script.js"></script>
   </body>
 </html>

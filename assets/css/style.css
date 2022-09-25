@@ -87,41 +87,7 @@ main h2{
 .underlined{
     text-decoration: line-through;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    margin-top: 20px;
-    padding: 20px;
-    background-color: rgba(230, 213, 213, 0.7);
-}
-footer a{
-    text-decoration: none;
-}
 
-footer div{
-    margin: 15px;
-    padding: 10px;
-}
-footer div ul{
-    margin: 5px;
-    padding: 5px;
-}
-footer h3{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: rgb(77, 77, 236);
-}
-footer li{
-    margin: 5px;
-    padding: 5px;
-}
-footer li img{
-    margin: 2px;
-    width: 30px;
-    height: 30px;
-}
 @media screen and (max-width:1280px) {
     .homeButtonContent,.products, footer{
         flex-direction: column;
