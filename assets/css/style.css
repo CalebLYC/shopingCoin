@@ -1,0 +1,129 @@
+*, ::after, ::before{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.homeBgImage{
+    width: 100%;
+    height: 45vh;
+    background: url('../img/bg2.jpg') repeat-y;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeBgImage h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: rgb(77, 77, 236);
+    margin-bottom: 1rem;
+}
+.homeButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+    padding: 10px;
+}
+
+.homeButtonContent{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeButtonContent .homeButtonCard{
+    width: 400px;
+    height: 200px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: rgba(230, 213, 213, 0.7);
+}
+
+.homeButtonCard img{
+    width: 100%;
+}
+
+.homeButtonCard h4{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: rgb(77, 77, 236);
+    text-align: center;
+}
+
+.homeButtonCard p{
+    font-size: 1.5rem;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(77, 77, 236);
+    margin-bottom: 1rem;
+    text-align: center;
+    margin: 5px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.underlined{
+    text-decoration: line-through;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(230, 213, 213, 0.7);
+}
+footer a{
+    text-decoration: none;
+}
+
+footer div{
+    margin: 15px;
+    padding: 10px;
+}
+footer div ul{
+    margin: 5px;
+    padding: 5px;
+}
+footer h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(77, 77, 236);
+}
+footer li{
+    margin: 5px;
+    padding: 5px;
+}
+footer li img{
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+}
+@media screen and (max-width:1280px) {
+    .homeButtonContent,.products, footer{
+        flex-direction: column;
+    }
+}
