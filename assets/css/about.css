@@ -1,0 +1,65 @@
+.aboutUs, .avis{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(77, 77, 236);
+    margin-bottom: 1rem;
+    text-align: center;
+    margin: 5px;
+}
+
+/************************section des avis*****************/
+.avisContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(77, 77, 236, .5);
+    display: none;
+}
+.avisContainer.active{
+    display: block;
+}
+.user-img{
+    margin: 2px;
+}
+.user-img img{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+}
+.avis-message{
+    margin: 2px;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: verdana;
+    font-style: italic;
+}
+
+.previous{
+    position: absolute;
+    top: 50%;
+    right: 100%;
+}
+.follow{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+}
+.previous img, .follow img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
